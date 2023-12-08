@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+    <style>
+        /* Additional styles for demonstration purposes */
+        .nav-item.dropdown:hover .dropdown-menu {
+            display: block; /* Show dropdown on hover */
+        }
+    </style>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        
+    </style>
+
+</head>
+
+<body class="bg-secondary">
+     
+    <!-- header start  -->
+    <nav class="navbar navbar-expand-lg text-bg-warning ">
+        <div class="container-fluid">
+            <a href="http://127.0.0.1:5500/index.html"><img src="/img/logo/smlogo2.png" alt="" srcset="" width="130px"></a> 
+           <a href="http://127.0.0.1:5500/index.html" class="text-dark " ><h3 style="margin-left: 30px;font-family: 'Edu TAS Beginner'; margin-top:20px;">SM Market</h3></a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="http://127.0.0.1:5500/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active "  href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/veg.html">Vegetables</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/fruits.html">Fruits</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/chocolate.html">Chocolates And Biscuts</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/ice.html">Ice Creams</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="http://127.0.0.1:5500/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark " type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- header end -->
+   
+    <!-- carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/banner/b3.jpg" class=" w-100" alt="...">
+                <div class="carousel-caption  text-center ">
+                    <div style="margin-bottom: 240px;" >
+                        <h2 style="font-family: 'Zeyada';">SM Market</h2>
+                        <p>One Of Best Market In Kanyakumari</p>
+                        <button class="btn btn-outline-warning  "><a class="text-light " href="http://127.0.0.1:5500/about.html">Read More ..</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item justify-content-center ">
+                <img src="/img/banner/b3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-sm-block">
+                    <div class="justify-content-sm-center" style="margin-bottom: 250px;">
+                        <h2>Vegetables & Fruits</h2>
+                        <p>We Have Neet ,Clean Vegetables And Fruits </p>
+                        <button class="btn btn-outline-warning "><a class="text-light " href="http://127.0.0.1:5500/veg.html">Read More ..</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/banner/b3.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block text-center ">
+                    <div style="margin-bottom: 250px;">
+                        <h2>Ice Cream & Chocolates</h2>
+                        <p>We Have Delicious Ice Cream & Chocolates</p>
+                        <button class="btn btn-outline-warning  "><a class="text-light " href="http://127.0.0.1:5500/ice.html">Read More ..</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+   
+    <!-- carousel end  -->
+    
+    <div class=" text-white " id="about">
+        <h2 class="text-center mt-sm-5  "><i><u>About</u></i></h2><br>
+        <div class="container-sm ">
+            <div class="row">
+                <div class="col-sm-6  ">
+                    <h3 class="text-sm-center ">About S M Market</h3>
+                    Welcome to S M Market, where nature's bounty meets your table! We take pride in being your
+                    neighborhood destination for the freshest and most flavorful fruits and vegetables available.
+                    <h3 class="text-sm-center ">Our Mission</h3>
+                    At S M Market, our mission is simple – to provide our community with a vibrant selection of fresh,
+                    high-quality fruits and vegetables. We are passionate about promoting healthy living and believe
+                    that the key to a nourished life begins with the goodness that comes straight from the earth.
+                    <h3 class="text-sm-center ">A Symphony of Freshness</h3>
+                    Step into S M Market, and you'll be greeted by a symphony of colors, textures, and aromas. We
+                    carefully curate our selection to ensure you have access to the finest produce, whether you're
+                    craving the juiciest seasonal fruits or the crispiest, garden-fresh vegetables.
+                    <h3 class="text-sm-center ">Variety That Inspires</h3>
+                    Diversity is at the heart of what we do. From exotic fruits to local favorites, and a rainbow of
+                    vegetables, our shelves are stocked with a variety that inspires culinary creativity. We believe in
+                    offering choices that cater to every taste, making every visit to our market a delightful
+                    experience.
+                    <h3 class="text-sm-center ">Connecting Communities through Freshness</h3>
+                    More than just a market, S M Market is a hub that connects communities. We value the relationships
+                    we build with local farmers, suppliers, and, most importantly, with you, our valued customers. By
+                    supporting local agriculture, we contribute to the sustainability of our community.
+                </div>
+                <div class="col-sm-6 ">
+                    <img src="/img/shop.jpg" class="rounded-3 m-sm-3  " alt="" srcset="" width="500px"> <br>
+                    <img src="/img/shop2.jpg" class="rounded-3 m-sm-3    " alt="" srcset="" width="500px">
+                </div>
+            </div>
+        </div><br><br>
+        <div class="text-sm-center mb-sm-3 text-light btn-center">
+            <center><a href="http://127.0.0.1:5500/about.html"><button type="button" class="btn btn-outline-light ">Read More
+                ..</button></a></center>
+        </div>
+    </div>
+    <!-- product area start -->
+
+    <div class="container-fluid  text-light" id="product">
+        <div class="text-center p-3 ">
+            <h2 style="font-style: italic;" class="text-decoration-underline p-2 ">Products</h2>
+        </div>
+        <div class="text-center p-3 ">
+            <h3 style="font-style: italic;" class="text-decoration-underline p-2 ">Vegetables</h3>
+        </div>
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-sm-3  p-1 ">
+                    <div class="card ">
+                        <img src="/img/veg/Cucumber.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Cucumber</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 10
+                                    </span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/veg/Tomato.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Tomato</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 15</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/veg/Cauliflower.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Cauliflower</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger ">₹ 30</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/veg/Beetroot.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Beetroot</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 25</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm-center mb-sm-3 text-light mt-sm-3  ">
+                    <center><a href="http://127.0.0.1:5500/veg.html"><button type="button" class="btn btn-outline-light ">Read
+                        More ..</button></a></center>
+                </div>
+            </div>
+            <div class="text-center p-3 ">
+                <h3 style="font-style: italic;" class="text-decoration-underline p-2 ">Fruits</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-3  p-1 ">
+                    <div class="card ">
+                        <img src="/img/friuts/f1.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Avocado</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 100
+                                    ₹<s>150</s></span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/friuts/f2.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Pear</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 150</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/friuts/f3.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Pomegranate</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger ">₹ 150</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/friuts/f4.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Avocado</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 150</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm-center mb-sm-3 mt-sm-3   ">
+                    <center><a href="http://127.0.0.1:5500/fruits.html"><button type="button" class="btn btn-outline-light ">Read
+                        More ..</button></a></center>
+                </div>
+            </div>
+
+            <div class="text-center p-3 ">
+                <h3 style="font-style: italic;" class="text-decoration-underline p-2 ">Chocolates & Biscuits</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-3  p-1 ">
+                    <div class="card ">
+                        <div class="card-body ">
+                            <img src="/img/chocolate/Alpenliebe Gold Strawberry.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                            <hr>
+                            <h5 class="card-title text-center ">Alpenliebe Gold Strawberry</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 50
+                                    </span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/chocolate/Dairy Milk Minis.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Dairy Milk Minis</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 100</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/chocolate/dairymilk-silk.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Dairymilk Silk</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger ">₹ 50</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/chocolate/dairymilk.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Dairymilk</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 10</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm-center mb-sm-3 mt-sm-3   ">
+                    <center><a href="http://127.0.0.1:5500/chocolate.html"><button type="button" class="btn btn-outline-light ">Read
+                        More ..</button></a></center>
+                </div>
+            </div>
+
+            <div class="text-center p-3 ">
+                <h3 style="font-style: italic;" class="text-decoration-underline p-2 ">Ice Cream</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-3  p-1 ">
+                    <div class="card ">
+                        <div class="card-body ">
+                            <img src="/img/ice/blackcurrant-cone Ice cream.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                            <hr>
+                            <h5 class="card-title text-center ">BlackCurrant Cone Ice</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 20
+                                    </span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/ice/blackraspberry ice cream.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Blackraspberry Ice Cream</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 100</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/ice/butterscotch.jpeg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Butterscotch</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger ">₹ 25</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-1">
+                    <div class="card ">
+                        <img src="/img/ice/cake-batter-ice-cream.jpg" alt="" width="250px" height="200px" class="card-img-top ">
+                        <div class="card-body ">
+                            <hr>
+                            <h5 class="card-title text-center ">Cake Batter Ice Cream</h5>
+                            <h5 class="card-title  text-center ">Price: <span class="badge bg-danger  ">₹ 20</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm-center mb-sm-3 mt-sm-3   ">
+                    <center><a href="http://127.0.0.1:5500/ice.html"><button type="button" class="btn btn-outline-light ">Read
+                        More ..</button></a></center>
+                </div>
+            </div>
+
+            <!-- product area end -->
+        </div>
+    </div>
+</body>
+<!-- footer start  -->
+<footer class="bg-dark  mt-5 ">
+    <div class="container text-light">
+        <div class="row">
+            <div class="col-sm-3 mt-3">
+                <h3 class="text-decoration-underline ">Product Type</h3>
+                
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/fruits.html" class="text-light ">Fruits</a></li>
+                    <li><a href="http://127.0.0.1:5500/veg.html" class="text-light ">Vegetables</a></li>
+                    <li><a href="http://127.0.0.1:5500/ice.html" class="text-light ">Ice Creams</a></li>
+                    <li><a href="http://127.0.0.1:5500/chocolate.html" class="text-light ">Chocolates And Biscuts</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 mt-3">
+                <h3 class="text-decoration-underline ">Quick Links</h3>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html" class="text-light  fa fa-home">  Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/about.html" class="text-light  fa fa-info-circle"> About Us</a></li>
+                    <li><a href="#product" class="text-light fa fa-shopping-cart "> Product</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html" class="text-light fa fa-address-card"> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 mt-3">
+                <h3 class="text-decoration-underline ">About</h3>
+                <ul>
+                    <li><p class="text-light "> simple – to provide our community with a vibrant selection of fresh, high-quality fruits and vegetables.</p></li>
+                    
+                </ul>
+            </div>
+            <div class="col-sm-3 mt-3">
+                <h3 class="text-decoration-underline ">Contact</h3>
+                <ul>
+                    <li><p class="text-light ">SM Market,<br>
+                    Rajavoor ,<br>
+                    Kanyakumari, <br>
+                    Mob: +91 9585471103
+                    Email:michaelsherlin03@gmail.com
+                     </p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end  -->
+<footer class="text-sm-center bg-light ">
+    <i class="fa fa-instagram m-sm-3 " style="font: size 36px;color:red"></i>
+    <i class="fa fa-facebook-f m-sm-3 " style="font: size 36px;color:blue"></i>
+    <i class="fa fa-youtube-play m-sm-3 " style="font: size 36px;color:red"></i>
+</footer>
+</html>
